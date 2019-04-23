@@ -2,40 +2,47 @@
 <html>
     <head>
         <title>Sahra Anies Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     </head>
     <body>
-        <h2>Contact</h2>
+        <div id="header">
+            <header>
+                <h1>Sahra Anies</h1>
+            </header>
+        </div>
 
-        <hr>
+        <div class="container">
+            <h1 id="page-heading">Contact</h1>
 
-        <form action="sahra.anies@gmail.com" method="POST">
-            <section>
-                <label for="name">Name</label>
-                <br>
-                <input type="text" name="name" id="name" placeholder="John Smith">
-            </section>
+            <hr>
 
-            <br>
+            <form action="sahra.anies@gmail.com" method="POST">
+                <section>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="name" id="name" placeholder="John Smith">
+                </section>
 
-            <section>
-                <label for="email">Email</label>
-                <br>
-                <input type="text" name="email" id ="email" placeholder="example@gmail.com">
-            </section>
+                <section>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="text" name="email" id ="email" placeholder="example@gmail.com">
+                </section>
 
-            <br>
+                <section>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea name="message" id="message" rows="10" cols="130"></textarea>
+                </section>
 
-            <section>
-                <label for="message">Message</label>
-                <br>
-                <textarea name="message" id="message" rows="5" cols="50"></textarea>
-            </section>
+                <section>
+                    <input type="submit" id="submit">
+                </section>
+            </form>
+        </div>
 
-            <br>
-
-            <section>
-                <input type="submit">
-            </section>
-        </form>
+        <div id="footer">
+            <footer>Copyright</footer>
+        </div>
     </body>
 </html>
